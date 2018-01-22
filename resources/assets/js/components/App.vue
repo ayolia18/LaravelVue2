@@ -5,10 +5,11 @@
         <p>
             <router-link :to="{ name: 'home' }">Home</router-link> |
             <router-link :to="{ name: 'hello' }">Hello World</router-link>
+            <router-link :to="{ name: 'map' }">Map</router-link>
         </p>
         <div class="container">
-            <router-view></router-view>
-        </div>
+        <router-view></router-view>
+    </div>
     </div>
 </template>
 
